@@ -1,6 +1,40 @@
 .img-thumbnail {
-    width: 80px;
-    height: 56px;
-    object-fit: cover; /* hoặc contain */
-    
- }
+  width: 100px;
+  height: 60px;
+  object-fit: cover; /* hoặc contain */
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.card-body{
+  padding: 10px;
+}
+hr{
+  margin: 10px;
+}
+.card-title{
+  font-size: 20px;
+  font-weight: 200;
+  margin: 0;
+}
+.border-none{
+  background-color: white;
+  border: none;
+  padding: 0;
+}
+.quantity-input {
+  user-select: none;
+  pointer-events: none;
+  border: none; /* xóa đường viền */
+  outline: none; /* xóa đường viền khi focus */
+  padding: 0;
+}
+
+.text-blue {
+  color: #3292e0;
+  font-weight: bold;
+}
+.card {
+  border-radius: 10px;
+}
