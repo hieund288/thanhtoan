@@ -4,9 +4,16 @@
   object-fit: cover; /* hoặc contain */
   border: none;
   border-radius: 10px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(55, 55, 91, 0.25) 0px 6px 12px -2px,
+    rgba(62, 59, 59, 0.3) 0px 3px 7px -3px;
 }
+.chitiet{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
 .card-body{
   padding: 10px;
 }
@@ -23,12 +30,16 @@ hr{
   border: none;
   padding: 0;
 }
+
 .quantity-input {
   user-select: none;
   pointer-events: none;
   border: none; /* xóa đường viền */
   outline: none; /* xóa đường viền khi focus */
   padding: 0;
+  color: #3292e0;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .text-blue {
